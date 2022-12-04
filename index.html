@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylis.css">
     <title>Britlex</title>
 </head>
 <body>
-    <header>
-        <a href="./index.html">Britlex</a>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-    <button type="button">Lets Talk</button>
+    <header class="header">
+        <div class="container header-conainer"> 
+            <a href="./index.html">Britlex</a>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="">Home</a></li>
+                    <li><a class="nav-link" href="">Skills</a></li>
+                    <li><a class="nav-link" href="">About Us</a></li>
+                    <li><a class="nav-link" href="">Pricing</a></li>
+                    <li><a class="nav-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+        <button class="header-btn" type="button">Lets Talk</button></div>
+       
     </header>
     <main>
         <section>
@@ -33,10 +36,12 @@
                     <img src="./photo/learning-languages.svg" alt="languages">
         </section>
         <section>
+<!-- skills -->
+
             <h2>Skills</h2>
-            <ul>
-                <li><img src="./photo/Shared goals-bro 1.svg" alt="Shared goals">
-                <h3>Speaking</h3>
+            <ul class="skills-parent">
+                <li class="parent-speking"><img src="./photo/Shared goals-bro 1.svg" alt="Shared goals">
+               <div><h3>Speaking</h3></div> 
                 <p>Improve your English skills and confidence. 
                     Live classes and interactive lessons online. 
                     20% extra free for a limited time only
@@ -46,21 +51,24 @@
                     and resources – all designed for adult language learners.</p>
                     <button type="button">Learn more</button>
             </li>
-                <li><img src="./photo/Typewriter-bro 1.svg" alt="Typewriter">
+                <li class="parent-writing">
+                    <img src="./photo/Typewriter-bro 1.svg" alt="Typewriter">
                 <h3>Writing</h3>
                 <p>One of the most important and extensive 
                     areas of natural science, the science that 
                     studies substances, also their composition </p>
                     <button type="button">Learn more</button>
             </li>
-                <li><img src="./photo/House bookshelves-bro 1.svg" alt="House bookshelves">
+                <li class="parent-reding">
+                    <img src="./photo/House bookshelves-bro 1.svg" alt="House bookshelves">
                 <h3>Reading</h3>
                 <p>Perception and response actions of the user
                     resulting from the use and/or upcoming use 
                     of the product, system or service</p>
                     <button type="button">Learn more</button>
             </li>
-                <li><img src="./photo/Podcast audience-bro 1.svg" alt="Podcast audience">
+                <li class="parent-listening">
+                    <img src="./photo/Podcast audience-bro 1.svg" alt="Podcast audience">
                 <h3>Listening</h3>
                 <p>Here you can find activities to practise
                     your listening skills. Listening will help you to improve your understanding </p>
